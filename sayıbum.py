@@ -1,6 +1,6 @@
 isim = input('İsminizi girin : ')
 print ("Merhaba "+isim)
-    #İsim ile selam verilir
+
 from random import randint
  
 rand=randint(1, 100)
@@ -21,5 +21,3 @@ while True:
     else:
         print("Rastele seçilen sayı {0}!".format(rand))
         print("Tahmin sayınız {0}".format(sayac))
-
-#oyun biter
